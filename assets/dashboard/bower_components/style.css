@@ -1,0 +1,44 @@
+nav{
+	background-color: #548194;
+}
+.navbar-static-top{
+
+	position: fixed;
+	width:100%;
+}
+.sidebar{
+	    background-color: #548194;
+	    height:605px;
+	  
+}
+.heading {
+    margin-top: 35px;
+}
+.sidebar ul li {
+    border-bottom: 0px solid #567C8C !important;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #42606D;
+    color:#fff;
+    }
+   .sidebar ul li a.active {
+    background-color: #42606D !important;
+     color:#fff;
+} 
+a{
+	color: #fff;
+}
+.navbar-toggle .icon-bar{
+    background-color:#ddd; 
+}
+.navbar-toggle{
+    background-color: rgba(102, 46, 46, 0.7) !important;
+ 
+    border: 1px solid rgba(45, 19, 19, 0.53) !important;
+}
+@media (max-width: 768px){
+   .sidebar{
+      height: auto;
+   }  
+}

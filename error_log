@@ -1,0 +1,62 @@
+[03-Aug-2015 01:01:16 Asia/Kolkata] PHP Warning:  require_once(Class/PHPassLib\Hash\BCrypt.php): failed to open stream: No such file or directory in /home/nodalinf/public_html/road/init.php on line 5
+[03-Aug-2015 01:01:16 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required 'Class/PHPassLib\Hash\BCrypt.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home') in /home/nodalinf/public_html/road/init.php on line 5
+[03-Aug-2015 01:07:30 Asia/Kolkata] PHP Warning:  require_once(Class/PHPassLib\Hash\BCrypt.php): failed to open stream: No such file or directory in /home/nodalinf/public_html/road/init.php on line 5
+[03-Aug-2015 01:07:30 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required 'Class/PHPassLib\Hash\BCrypt.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home') in /home/nodalinf/public_html/road/init.php on line 5
+[06-Aug-2015 09:35:33 Asia/Kolkata] PHP Warning:  require_once(Class/Admin.php): failed to open stream: No such file or directory in /home/nodalinf/public_html/road/init.php on line 5
+[06-Aug-2015 09:35:33 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required 'Class/Admin.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home') in /home/nodalinf/public_html/road/init.php on line 5
+[06-Aug-2015 09:36:58 Asia/Kolkata] PHP Warning:  require_once(Class/Admin.php): failed to open stream: No such file or directory in /home/nodalinf/public_html/road/init.php on line 5
+[06-Aug-2015 09:36:58 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required 'Class/Admin.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home') in /home/nodalinf/public_html/road/init.php on line 5
+[06-Aug-2015 09:41:12 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/nodalinf/public_html/road/Controller/administrator.php on line 39
+[06-Aug-2015 09:41:15 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/nodalinf/public_html/road/Controller/administrator.php on line 39
+[06-Aug-2015 09:41:18 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/nodalinf/public_html/road/Controller/administrator.php on line 39
+[06-Aug-2015 09:41:20 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/nodalinf/public_html/road/Controller/administrator.php on line 39
+[06-Aug-2015 09:41:55 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/nodalinf/public_html/road/Controller/administrator.php on line 39
+[06-Aug-2015 09:45:12 Asia/Kolkata] PHP Warning:  require_once(Class/Admin.php): failed to open stream: No such file or directory in /home/nodalinf/public_html/road/init.php on line 5
+[06-Aug-2015 09:45:12 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required 'Class/Admin.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home') in /home/nodalinf/public_html/road/init.php on line 5
+[06-Aug-2015 09:51:32 Asia/Kolkata] PHP Warning:  require_once(Class/Admin.php): failed to open stream: No such file or directory in /home/nodalinf/public_html/road/init.php on line 5
+[06-Aug-2015 09:51:32 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required 'Class/Admin.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home') in /home/nodalinf/public_html/road/init.php on line 5
+[06-Aug-2015 09:53:47 Asia/Kolkata] PHP Fatal error:  Call to undefined function isAdminLogin() in /home/nodalinf/public_html/road/Controller/administrator.php on line 27
+[24-Sep-2015 11:53:41 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: User->mobile in /home/nodalinf/public_html/road/venders/php-activerecord/lib/Model.php on line 533' in /home/nodalinf/public_html/road/venders/php-activerecord/lib/Model.php:533
+Stack trace:
+#0 /home/nodalinf/public_html/road/venders/php-activerecord/lib/Model.php(345): ActiveRecord\Model->read_attribute('mobile')
+#1 /home/nodalinf/public_html/road/View/shippers/setting.php(60): ActiveRecord\Model->__get('mobile')
+#2 /home/nodalinf/public_html/road/Class/View.php(9): require_once('/home/nodalinf/...')
+#3 /home/nodalinf/public_html/road/Controller/shippinguser.php(26): View->views('shippers/settin...', Array)
+#4 /home/nodalinf/public_html/road/Class/Controller.php(49): shippinguser->setting()
+#5 /home/nodalinf/public_html/road/Class/Controller.php(7): Controller->control()
+#6 /home/nodalinf/public_html/road/index.php(28): Controller->__construct()
+#7 {main}
+  thrown in /home/nodalinf/public_html/road/venders/php-activerecord/lib/Model.php on line 533
+[24-Sep-2015 11:53:49 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: User->mobile in /home/nodalinf/public_html/road/venders/php-activerecord/lib/Model.php on line 533' in /home/nodalinf/public_html/road/venders/php-activerecord/lib/Model.php:533
+Stack trace:
+#0 /home/nodalinf/public_html/road/venders/php-activerecord/lib/Model.php(345): ActiveRecord\Model->read_attribute('mobile')
+#1 /home/nodalinf/public_html/road/View/shippers/setting.php(60): ActiveRecord\Model->__get('mobile')
+#2 /home/nodalinf/public_html/road/Class/View.php(9): require_once('/home/nodalinf/...')
+#3 /home/nodalinf/public_html/road/Controller/shippinguser.php(26): View->views('shippers/settin...', Array)
+#4 /home/nodalinf/public_html/road/Class/Controller.php(49): shippinguser->setting()
+#5 /home/nodalinf/public_html/road/Class/Controller.php(7): Controller->control()
+#6 /home/nodalinf/public_html/road/index.php(28): Controller->__construct()
+#7 {main}
+  thrown in /home/nodalinf/public_html/road/venders/php-activerecord/lib/Model.php on line 533
+[24-Sep-2015 11:54:51 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: User->mobile in /home/nodalinf/public_html/road/venders/php-activerecord/lib/Model.php on line 533' in /home/nodalinf/public_html/road/venders/php-activerecord/lib/Model.php:533
+Stack trace:
+#0 /home/nodalinf/public_html/road/venders/php-activerecord/lib/Model.php(345): ActiveRecord\Model->read_attribute('mobile')
+#1 /home/nodalinf/public_html/road/View/shippers/setting.php(60): ActiveRecord\Model->__get('mobile')
+#2 /home/nodalinf/public_html/road/Class/View.php(9): require_once('/home/nodalinf/...')
+#3 /home/nodalinf/public_html/road/Controller/shippinguser.php(26): View->views('shippers/settin...', Array)
+#4 /home/nodalinf/public_html/road/Class/Controller.php(49): shippinguser->setting()
+#5 /home/nodalinf/public_html/road/Class/Controller.php(7): Controller->control()
+#6 /home/nodalinf/public_html/road/index.php(28): Controller->__construct()
+#7 {main}
+  thrown in /home/nodalinf/public_html/road/venders/php-activerecord/lib/Model.php on line 533
+[24-Sep-2015 11:55:29 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'ActiveRecord\UndefinedPropertyException' with message 'Undefined property: User->mobile in /home/nodalinf/public_html/road/venders/php-activerecord/lib/Model.php on line 533' in /home/nodalinf/public_html/road/venders/php-activerecord/lib/Model.php:533
+Stack trace:
+#0 /home/nodalinf/public_html/road/venders/php-activerecord/lib/Model.php(345): ActiveRecord\Model->read_attribute('mobile')
+#1 /home/nodalinf/public_html/road/View/shippers/setting.php(60): ActiveRecord\Model->__get('mobile')
+#2 /home/nodalinf/public_html/road/Class/View.php(9): require_once('/home/nodalinf/...')
+#3 /home/nodalinf/public_html/road/Controller/shippinguser.php(26): View->views('shippers/settin...', Array)
+#4 /home/nodalinf/public_html/road/Class/Controller.php(49): shippinguser->setting()
+#5 /home/nodalinf/public_html/road/Class/Controller.php(7): Controller->control()
+#6 /home/nodalinf/public_html/road/index.php(28): Controller->__construct()
+#7 {main}
+  thrown in /home/nodalinf/public_html/road/venders/php-activerecord/lib/Model.php on line 533
